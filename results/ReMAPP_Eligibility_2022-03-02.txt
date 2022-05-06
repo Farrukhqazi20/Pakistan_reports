@@ -1,0 +1,180 @@
+---------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Farrukh_data\Anemia\log_files\ReMAPP_Eligibility_2022-03-02.txt
+  log type:  text
+ opened on:   8 Mar 2022, 12:47:17
+
+. 
+.         *PRiSMA Enrollment
+.                 *table eligible_prisma enrolled_prisma, by(screened_prisma)
+.                         table (eligible_prisma) (enrolled_prisma) (screened_prisma)
+
+Participant was screened for enrollment = yes
+------------------------------------------------------------------------------
+                                          |   Participant enrolled for PRiSMA 
+                                          |                1             Total
+------------------------------------------+-----------------------------------
+Participant was found eligible for PRiSMA |                                   
+  yes                                     |            2,787             2,787
+  Total                                   |            2,787             2,787
+------------------------------------------------------------------------------
+
+Participant was screened for enrollment = Total
+------------------------------------------------------------------------------
+                                          |   Participant enrolled for PRiSMA 
+                                          |                1             Total
+------------------------------------------+-----------------------------------
+Participant was found eligible for PRiSMA |                                   
+  yes                                     |            2,787             2,787
+  Total                                   |            2,787             2,787
+------------------------------------------------------------------------------
+
+. 
+.         *ReMAPP Aim 1 Eligibility Criteria
+.         tab aim1e_mage
+
+      Aim 1 |
+Eligibility |
+: Age 18-35 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         no |        396       14.21       14.21
+        yes |      2,391       85.79      100.00
+------------+-----------------------------------
+      Total |      2,787      100.00
+
+.         tab aim1e_gestage
+
+      Aim 1 |
+Eligibility |
+          : |
+Gestational |
+     age at |
+ enrollment |
+        <14 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         no |      1,524       54.70       54.70
+        yes |      1,256       45.08       99.78
+    unknown |          6        0.22      100.00
+------------+-----------------------------------
+      Total |      2,786      100.00
+
+.         tab aim1e_bmi
+
+      Aim 1 |
+Eligibility |
+      : BMI |
+     during |
+      early |
+  pregnancy |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         no |        563       20.20       20.20
+        yes |      1,362       48.87       69.07
+    unknown |        862       30.93      100.00
+------------+-----------------------------------
+      Total |      2,787      100.00
+
+.         tab aim1e_muac
+
+      Aim 1 |
+Eligibility |
+     : MUAC |
+      >23cm |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         no |        830       29.78       29.78
+        yes |      1,946       69.82       99.61
+    unknown |         11        0.39      100.00
+------------+-----------------------------------
+      Total |      2,787      100.00
+
+.         tab aim1e_height
+
+      Aim 1 |
+Eligibility |
+   : Height |
+     >153cm |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         no |      1,252       44.92       44.92
+        yes |      1,524       54.68       99.61
+    unknown |         11        0.39      100.00
+------------+-----------------------------------
+      Total |      2,787      100.00
+
+.         tab aim1e_singleton
+
+      Aim 1 |
+Eligibility |
+: Singleton |
+      fetus |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         no |         32        1.15        1.15
+        yes |      2,674       95.95       97.09
+    unknown |         81        2.91      100.00
+------------+-----------------------------------
+      Total |      2,787      100.00
+
+.         tab aim1e_bp
+
+      Aim 1 |
+Eligibility |
+   : Normal |
+      blood |
+  pressue - |
+  SBP<140 & |
+     DBP<90 |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         no |         18        0.65        0.65
+        yes |      2,747       98.56       99.21
+    unknown |         22        0.79      100.00
+------------+-----------------------------------
+      Total |      2,787      100.00
+
+.         tab aim1e_miscarriage
+
+      Aim 1 |
+Eligibility |
+      : <=1 |
+miscarriage |
+     in two |
+consecutive |
+pregnancies |      Freq.     Percent        Cum.
+------------+-----------------------------------
+        yes |      2,787      100.00      100.00
+------------+-----------------------------------
+      Total |      2,787      100.00
+
+.         tab aim1e_lbw
+
+      Aim 1 |
+Eligibility |
+       : no |
+   previous |
+ preterm or |
+        lbw |
+   delivery |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         no |          1        0.15        0.15
+        yes |        668       99.85      100.00
+------------+-----------------------------------
+      Total |        669      100.00
+
+.         tab aim1e_death
+
+      Aim 1 |
+Eligibility |
+       : no |
+   previous |
+neonatal or |
+fetal death |      Freq.     Percent        Cum.
+------------+-----------------------------------
+         no |        169        6.06        6.06
+        yes |      2,618       93.94      100.00
+------------+-----------------------------------
+      Total |      2,787      100.00
+
+.         
+.         log close 
+      name:  <unnamed>
+       log:  C:\Farrukh_data\Anemia\log_files\ReMAPP_Eligibility_2022-03-02.txt
+  log type:  text
+ closed on:   8 Mar 2022, 12:47:17
+---------------------------------------------------------------------------------------------------
